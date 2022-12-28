@@ -2,17 +2,29 @@
 async function populate() {
     console.log("in populate function top");
 
+    const data = getJSON();
+    console.log(data);
+    /*
     const requestURL = 'https://github.com/laurenyang/laurenyang.github.io/blob/main/data.json';
     const request = new Request(requestURL);
   
-    const response = await fetch(request, {mode: 'no-cors'});
+    const response = await fetch(request, {mode: "no-cors"});
     const bookData = await response.json();
+    */
     console.log("in populate function");
   
     //populateHeader(bookData);
     populateHeroes(bookData);
   
   }
+
+  async function getJSON() {
+    const response = await fetch('https://github.com/laurenyang/laurenyang.github.io/blob/main/data.json');
+    const json = await response.json();
+    return json;
+  }
+  
+ 
 
   /*
   function populateHeader(obj) {

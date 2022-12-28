@@ -1,0 +1,20 @@
+.book-summary {
+    display: flex;
+  }
+  
+  .book-summary img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .book-summary .book-info {
+    margin-left: 10px;
+  }
+  
+  .book-review img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+  

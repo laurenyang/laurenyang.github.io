@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "author": "Jane Austen",
+      "title": "Pride and Prejudice",
+      "cover": "/path/to/cover.jpg",
+      "rating": 4,
+      "date": "January 1, 2020",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": 2,
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "cover": "/path/to/cover.jpg",
+      "rating": 5,
+      "date": "February 1, 2020",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  ]
+  
