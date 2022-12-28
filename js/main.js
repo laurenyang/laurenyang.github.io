@@ -1,14 +1,14 @@
-import { render } from 'react-dom';
-import Overview from './components/Overview';
-import DetailedView from './components/DetailedView';
-import reviews from './data.json';
+const ReactDOM = require('react-dom');
+const Overview = require('./components/Overview');
+const DetailedView = require('./components/DetailedView');
+const reviews = require('./data.json');
 
 // Render the overview page by default
-render(<Overview />, document.getElementById('root'));
+ReactDOM.render(<Overview />, document.getElementById('root'));
 
 // Handle navigation to the detailed view page
 const handleClick = id => {
-  render(<DetailedView id={id} />, document.getElementById('root'));
+  ReactDOM.render(<DetailedView id={id} />, document.getElementById('root'));
 };
 
 // Add click event listeners to the book summary cards
